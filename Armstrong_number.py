@@ -1,7 +1,7 @@
 i = 0
 plusagain = 0
 number =  input("Enter a number please? ")
-a = list(str(number))
+a = list(number)
 while i < len(a) :
   x = int(a[i]) ** len(a) 
   plusagain = plusagain + x
